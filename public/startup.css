@@ -1,0 +1,90 @@
+html,body
+{
+	height: 100%;
+}
+body
+{
+	-webkit-font-smoothing:antialiased;
+	text-rendering: optimizeLegibility;
+	color: #6c6f73;
+}
+h1,h2,h3,h4,h5
+{
+	color: #333;
+}
+h6
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+}
+iframe{
+	display: block;
+}
+img
+{
+	max-width: 100%;
+}
+.blockquote
+{
+	font-size: 1.6rem;
+	color: #333;
+	border:none;
+	padding: 0;
+}
+.blockquote-footer
+{
+	margin: 1rem 0 0;
+}
+#stage
+{
+	background: url(facebook-instagram-logos-266246.jpg) center;
+	background-size: cover;
+	color: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+#stage #caption
+{
+	font-size: 1.4rem;
+	font-weight: 200;
+	max-width: 60rem;
+	margin: 0 auto;
+	text-align: center;
+}
+#stage #caption h1 
+{
+	color: rgba(0,0,0,0.8);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+p
+{
+	color: rgba(0,0,0,0.9);
+	font-weight: bolder; 
+
+}
+.feature-content
+{
+	padding: 0.8rem 0;
+	overflow: hidden;
+
+}
+#maincolumn
+{
+	float: left;
+	margin: 30 auto;
+}
+#sidebar
+{
+	float: right;
+
+}
+
+#img
+{
+	float: right;
+}
